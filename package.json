@@ -1,0 +1,21 @@
+{
+  "name": "projeto-gerenciamento",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de projetos e tarefas",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "seed": "node src/config/seed.js"
+  },
+  "keywords": ["node", "express", "mongodb", "mongoose"],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
